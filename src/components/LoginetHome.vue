@@ -223,15 +223,22 @@
           <!-- Name -->
           <div class="field">
             <label class="label">Név</label>
-            <div class="control">
-              <input class="input" type="text" placeholder="Név" v-model="state.name">
+            <div class="control has-icons-left">
+              <input class="input is-danger" type="text" placeholder="Név" v-model="state.name">
+              <span class="icon is-small is-left">
+                <i class="fas fa-user"></i>
+              </span>
             </div>
+            <p class="has-text-danger mt-1 is-size-7">Kérlek add meg a teljes nevedet!</p>
           </div>
           <!-- Email -->
           <div class="field">
             <label class="label">Email cím</label>
-            <div class="control">
+            <div class="control has-icons-left">
               <input class="input" type="email" placeholder="Email cím" v-model="state.email">
+              <span class="icon is-small is-left">
+                <i class="fas fa-envelope"></i>
+              </span>
             </div>
           </div>
           <!-- Subject -->
