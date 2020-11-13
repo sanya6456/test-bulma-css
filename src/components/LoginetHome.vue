@@ -62,7 +62,7 @@
 
   </section>
   <!-- Digital services -->
-  <section class="hero">
+  <section class="hero has-background-light">
     <div class="hero-body">
       <div class="container">
         <!-- Services title -->
@@ -209,7 +209,7 @@
 
 
   <!-- Contact section -->
-  <section class="hero">
+  <section class="hero has-background-light">
     <div class="hero-body">
       <div class="container">
           <!-- Contact title section -->
